@@ -1,16 +1,16 @@
 Flight Price Prediction with Random Forest 🚀
 
-Overview
+##Overview
 This project aims to predict flight prices using a Random Forest Regressor. By leveraging the power of ensemble learning and applying k-fold cross-validation, the model is optimized for accuracy and robustness. The dataset is preprocessed and imputed for missing values, and the model's performance is evaluated based on the R-squared score.
 
-Key Features
+##Key Features
 ✅ Random Forest Regressor: A powerful ensemble learning model used for predicting continuous variables like flight prices.
 ✅ Cross-Validation: Implements 5-fold cross-validation to evaluate model performance and prevent overfitting.
 ✅ R-squared Metric: Uses R-squared to assess the quality of predictions and model fit.
 ✅ Efficient Model Training: The model is trained on imputed data for better accuracy and handling of missing values.
 ✅ Scalable: The Random Forest algorithm is suitable for large datasets and can easily be extended to other use cases.
 
-Technologies Used
+##Technologies Used
 
 Python 3.x
 scikit-learn: For machine learning models and evaluation metrics
@@ -22,12 +22,12 @@ Results & Insights
 📌 Final R-squared score: After training on the entire dataset, the Random Forest model achieved an R-squared score of 0.8542, indicating that it can explain 85.42% of the variance in flight prices.
 📌 Imputed Data Handling: The model uses imputed data to handle missing values effectively, ensuring that the predictions are not biased by incomplete information.
 
-Future Work
+##Future Work
 🔹 Hyperparameter Tuning: Explore tuning the Random Forest parameters like n_estimators and max_depth to improve model performance further.
 🔹 Feature Engineering: Experiment with additional features like flight duration, airline, or departure time to enhance the model’s predictive power.
 🔹 Comparison with Other Models: Compare the performance of Random Forest with other models like Gradient Boosting or XGBoost to assess which provides the best results for flight price prediction.
 
-Installation
+##Installation
 Prerequisites
 
 Python 3.x
@@ -35,18 +35,11 @@ pip (Python package installer)
 Steps
 
 Clone the repository:
-bash
-Copy
-Edit
+
 git clone https://github.com/Baybordi/Flight-Price-Prediction.git
 Navigate into the project directory:
-bash
-Copy
-Edit
+
 cd Flight-Price-Prediction
-Install the required dependencies:
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 Run the Jupyter Notebook or Python script to train and evaluate the model.
