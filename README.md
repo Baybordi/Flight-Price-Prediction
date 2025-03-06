@@ -1,4 +1,5 @@
-Flight Price Prediction with Random Forest 🚀 
+Flight Price Prediction with Random Forest 🚀
+
 Overview
 This project aims to predict flight prices using a Random Forest Regressor. By leveraging the power of ensemble learning and applying k-fold cross-validation, the model is optimized for accuracy and robustness. The dataset is preprocessed and imputed for missing values, and the model's performance is evaluated based on the R-squared score.
 
@@ -10,6 +11,7 @@ Key Features
 ✅ Scalable: The Random Forest algorithm is suitable for large datasets and can easily be extended to other use cases.
 
 Technologies Used
+
 Python 3.x
 scikit-learn: For machine learning models and evaluation metrics
 pandas and numpy: For data manipulation and preprocessing
@@ -27,23 +29,22 @@ Future Work
 
 Installation
 Prerequisites
+
 Python 3.x
 pip (Python package installer)
 Steps
-Clone the repository:
 
+Clone the repository:
 bash
 Copy
 Edit
 git clone https://github.com/Baybordi/Flight-Price-Prediction.git
 Navigate into the project directory:
-
 bash
 Copy
 Edit
 cd Flight-Price-Prediction
 Install the required dependencies:
-
 bash
 Copy
 Edit
